@@ -14,7 +14,7 @@ namespace ConsoleApplication1
             int a = Convert.ToInt32(Console.ReadLine());
             int A = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(Math.Pow(a, A));
+            Console.WriteLine(a/A);
 
             Console.ReadKey();
         }
