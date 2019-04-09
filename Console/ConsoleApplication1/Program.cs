@@ -11,40 +11,11 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-            //Metoda();
 
-            //var people = People();
 
-            //var result = people.GroupBy(x=>x.Name).Distinct();
-
-            //Person p1 = new Person(){Age = 5, Name = "Filip"};
-            //Person p2 = p1.;
-
-            int[] a1 = new[] {1, 2, 3};
-            int[] a2 = (int[])a1.Clone();
-            a2[0] = 5;
-
-            Console.WriteLine(string.Join(",", a1));
-            Console.WriteLine(string.Join(",", a2));
-
-            Console.WriteLine("Przed zmianą");
-            //Console.WriteLine(p1.Age);
-            //Console.WriteLine(p2.Age);
-
-            //p2.Age = 6;
-
-            Console.WriteLine("Po zmianie");
-            Console.ReadKey();
-            //Console.WriteLine(p1.Age);
-            //Console.WriteLine(p2.Age);
 
 
             Console.ReadKey();
-        }
-
-        private static int Metoda()
-        {
-            return Metoda();
         }
 
         private static List<Person> People()
