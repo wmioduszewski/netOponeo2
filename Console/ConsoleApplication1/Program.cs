@@ -14,19 +14,21 @@ namespace ConsoleApplication1
             Console.WriteLine("Hello world");
 
             Person person = People().FirstOrDefault();
-
+            int count = 17;
             if (person.Age > 6)
             {
                 Console.WriteLine("Person is older than 6");
+                count = 18;
             }
             else
             {
                 Console.WriteLine("Person is younger than 6 (or 6)");
+                count = 19;
             }
 
             // person w JSON
             string result = JsonConvert.SerializeObject(person);
-
+            Console.WriteLine(count);
             Console.WriteLine(result);
 
             Console.ReadKey();
